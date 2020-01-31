@@ -9,7 +9,7 @@
     display: grid;
     height: 200vh;
     grid-template-columns:2fr 1fr;
-    background-color: #D9C8B8;
+    background-color: white;
     grid-template-areas:
         'nv nv nv nv'
         'hd hd hd hd'
@@ -35,7 +35,7 @@ body{
     justify-content: flex-end;
     align-items:center;
     height: 10vh;
-    background-color: #A4846D;
+    background-color: lightpink;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -50,7 +50,7 @@ body{
     right: 0px;
     height: 90vh;
     top: -90vh;
-    background-color: rgba(164, 132, 109, 0.5);
+    background-color: rgba(255, 182, 193, 0.452);
     align-items: center;
     width: 100%;
     transition: all 0.5s;
