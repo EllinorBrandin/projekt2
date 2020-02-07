@@ -7,7 +7,7 @@
   }
 #container {
     display: grid;
-    height: 200vh;
+    height: 100vh;
     grid-template-columns:2fr 1fr;
     background-color: white;
     grid-template-areas:
@@ -90,6 +90,54 @@ body{
     font-weight: bold;
     font-size: 20px;
   }
+.link1{
+  transition: 0.5s;
+  height: 25vh;   
+  width:100vw;
+  text-align: center;
+  }
+
+.link1:hover{
+  background-color: white;
+  
+}
+
+.link2{
+  transition: 0.5s;
+  height: 25vh;   
+  text-align: center;
+  width:100vw;
+}
+.link2:hover{
+  background-color: white;
+  
+}
+
+.link3{
+  transition: 0.5s;
+  height: 25vh;   
+  text-align: center;
+  width:100vw;
+
+}
+.link3:hover{
+  background-color: white;
+  
+}
+.link4{
+  transition: 0.5s;
+  height: 25vh;   
+  text-align: center;
+  width:100vw;
+
+}
+.link4:hover{
+  background-color: white;
+  
+}
+
+
+
   .burger div {
     width: 25px;
     height: 3px;
@@ -98,6 +146,12 @@ body{
     border-radius: 10%;
     transition: all 0.5s;
   }
+
+
+ .link:hover{
+   background-color: brown;
+   color: red;
+ }
 
   .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
