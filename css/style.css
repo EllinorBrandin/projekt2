@@ -23,6 +23,7 @@ body{
     flex-direction: column;
 }
 /* logga */
+
 .boklogga {
   display: block;
   margin: 190px;
@@ -54,6 +55,7 @@ body{
 }
 
 /* /logga */
+
 .navbar{
     grid-area: nv;
     display: flex;
