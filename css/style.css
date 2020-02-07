@@ -40,6 +40,19 @@ body{
     margin: 190px;
     height: 8vh;
 }
+
+.profil {
+  display: block;
+    margin: 190px;
+    height: 8vh;
+}
+
+.fraglogga {
+  display: block;
+    margin: 190px;
+    height: 8vh;
+}
+
 /* /logga */
 .navbar{
     grid-area: nv;
