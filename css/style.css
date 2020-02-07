@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
 
-* {
+ *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -22,7 +22,7 @@ body{
     display:flex;
     flex-direction: column;
 }
-
+/* logga */
 .boklogga {
   display: block;
   margin: 190px;
@@ -40,7 +40,7 @@ body{
     margin: 190px;
     height: 8vh;
 }
-
+/* /logga */
 .navbar{
     grid-area: nv;
     display: flex;
