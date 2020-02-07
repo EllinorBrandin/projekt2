@@ -10,6 +10,7 @@
     height: 100vh;
     grid-template-columns:2fr 1fr;
     background-color: white;
+    text-align: center;
     grid-template-areas:
         'nv nv nv nv'
         'hd hd hd hd'
@@ -56,6 +57,7 @@ body{
 
 /* /logga */
 
+
 .navbar{
     grid-area: nv;
     display: flex;
@@ -66,8 +68,7 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.navLinks li {
-    list-style: none;
+
   }
   .navLinks {
     display: flex;
@@ -77,28 +78,30 @@ body{
     right: 0px;
     height: 90vh;
     top: -90vh;
-    background-color: rgba(190, 160, 243, 0.5);
-    align-items: center;
+    background-color: rgba(190, 160, 243, 0.404);
     width: 100%;
     transition: all 0.5s;
   }
-  
+
   .navLinks a {
     color: black;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 20px;
+    margin: auto;
+    display: inline-block;
   }
 .link1{
   transition: 0.5s;
   height: 25vh;   
   width:100vw;
+  margin: 0 auto;
   text-align: center;
   }
 
 .link1:hover{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.356);
   
 }
 
@@ -109,7 +112,7 @@ body{
   width:100vw;
 }
 .link2:hover{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.295);
   
 }
 
@@ -121,7 +124,7 @@ body{
 
 }
 .link3:hover{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.295);
   
 }
 .link4{
@@ -132,11 +135,9 @@ body{
 
 }
 .link4:hover{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.295);
   
 }
-
-
 
   .burger div {
     width: 25px;
@@ -146,12 +147,6 @@ body{
     border-radius: 10%;
     transition: all 0.5s;
   }
-
-
- .link:hover{
-   background-color: brown;
-   color: red;
- }
 
   .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
@@ -169,4 +164,3 @@ body{
     transform: translateY(100vh);
   }
 
-}
