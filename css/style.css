@@ -63,6 +63,7 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items:center;
+    text-align: center;
     height: 10vh;
     background-color: #BEA0F3;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -89,15 +90,10 @@ body{
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 20px;
-    margin: auto;
-    display: inline-block;
   }
 .link1{
   transition: 0.5s;
-  height: 25vh;   
   width:100vw;
-  margin: 0 auto;
-  text-align: center;
   }
 
 .link1:hover{
@@ -107,8 +103,6 @@ body{
 
 .link2{
   transition: 0.5s;
-  height: 25vh;   
-  text-align: center;
   width:100vw;
 }
 .link2:hover{
@@ -118,8 +112,6 @@ body{
 
 .link3{
   transition: 0.5s;
-  height: 25vh;   
-  text-align: center;
   width:100vw;
 
 }
@@ -129,8 +121,6 @@ body{
 }
 .link4{
   transition: 0.5s;
-  height: 25vh;   
-  text-align: center;
   width:100vw;
 
 }
