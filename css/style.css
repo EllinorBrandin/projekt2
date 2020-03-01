@@ -6,7 +6,8 @@
   }
 #container {
     display: grid;
-    height: 120vh;
+    height: 250vh;
+    width: 100%;
     grid-template-columns:2fr 1fr;
     text-align: center;
     background-color: rgb(21, 21, 49);
@@ -80,24 +81,26 @@ body{
     justify-content: space-around;
     position: absolute;
     right: 0px;
-    height: 89vh;
+    height: 70vh;
+    line-height: 20vh;
+    width: 30vw;
     top: -89vh;
-    background-color: rgba(57, 87, 143, 0.562);
-    width: 40%;
+    background-color: rgb(65, 79, 116);
     transition: all 0.5s;
   }
 
   .navLinks a {
-    color: black;
+    color: white;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 14px;
+    height: 17.5px;
   }
 .link1{
   transition: 0.5s;
-  height: 20vh;
-  }
+  height: 17.5vh;
+}
 
 .link1:hover{
   background-color: rgba(255, 255, 255, 0.356);
@@ -106,7 +109,7 @@ body{
 
 .link2{
   transition: 0.5s;
-  height: 20vh;
+  height: 17.5vh;
 
 }
 .link2:hover{
@@ -116,7 +119,7 @@ body{
 
 .link3{
   transition: 0.5s;
-  height: 20vh;
+  height: 17.5vh;
 
 
 }
@@ -126,7 +129,7 @@ body{
 }
 .link4{
   transition: 0.5s;
-  height: 20vh;
+  height: 17.5vh;
 
 
 }
@@ -164,26 +167,39 @@ body{
 
 .header {
   grid-area: hd;
-  height: 40vh;
+  height: 50vh;
   background-color: rgb(57, 87, 143);
   color: lightcoral;
   padding: 5px;
   
 }
 
-
 .main {
+  
   grid-area: mn;
   background-color: rgb(57, 87, 143);
-  height: 20vh;
+  height: 80vh;
   color: lightgreen;
 
 }
 
+.allbooks{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.books1 {
+  background-color: rgb(255, 255, 255);
+  height: 40%;
+  width: 10%
+}
+
+
 .aside{
   grid-area: as;
   background-color: rgb(57, 87, 143);
-  height: 20vh;
+  height: 40vh;
   color: grey;
 }
 
@@ -196,12 +212,12 @@ body{
 
 .search{
   grid-area: hm;
-  background-color: lightslategrey;
+  background-color: rgba(255, 255, 255, 0.733);
   width: 90%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 4px;
   height: 5vh;
   font-style: italic;
-  color: lightsteelblue
+  color: black;
 }
