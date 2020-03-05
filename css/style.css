@@ -1,3 +1,6 @@
+@media only screen and (max-width: 580px) {
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -5,8 +8,8 @@
   }
 #container {
     display: grid;
-    height: 250vh;
-    width: 100%;
+    height: 290vh;
+    width: 100vw;
     grid-template-columns:2fr 1fr;
     text-align: center;
     background-color: rgb(21, 21, 49);
@@ -20,49 +23,15 @@
         'ft ft ft ft';
 }
 
-body{
-    display:flex;
-    flex-direction: column;
-    
-}
-/* logga */
 
-.boklogga {
-  display: block;
-  margin: auto;
-  height: 8vh;
-}
 
-.kontaktlogga {
-  display: block;
-  margin: auto;
-  height: 8vh;
-}
 
-.ovrigtlogga{
-    display: block;
-    margin: auto;
-    height: 8vh;
-}
-
-.profil {
-  display: block;
-    margin: auto;
-    height: 8vh;
-}
-
-.fraglogga {
-  display: block;
-    margin: auto;
-    height: 8vh;
-}
-
-/* /logga */
 
 /*nav*/
 
 .navbar{
     grid-area: nv;
+    position: relative;
     display: flex;
     justify-content: flex-end;
     align-items:center;
@@ -81,12 +50,52 @@ body{
     position: absolute;
     right: 0px;
     height: 70vh;
+    z-index:2;
     line-height: 20vh;
-    width: 30vw;
     top: -89vh;
-    background-color: rgb(65, 79, 116);
+    background-color: rgb(57, 87, 143) ;
     transition: all 0.5s;
+    box-shadow: -5px 2px 3px rgba(8, 13, 78, 0.295);
   }
+
+  /* logga */
+
+.boklogga {
+  display: block;
+  position: relative;
+  left: -182px;
+  height: 8vh;
+}
+
+.kontaktlogga {
+  position: relative;
+  left: -182px;
+  display: block;
+  height: 8vh;
+}
+
+.ovrigtlogga{
+  position: relative;
+  left: -182px;
+    display: block;
+    height: 8vh;
+}
+
+.profil {
+  position: relative;
+  left: -182px;
+  display: block;
+    height: 8vh;
+}
+
+.fraglogga {
+  position: relative;
+  left: -182px;
+  display: block;
+    height: 8vh;
+}
+
+/* /logga */
 
   .navLinks a {
     color: white;
@@ -174,31 +183,46 @@ body{
 }
 
 .main {
-  
+  position: relative;
   grid-area: mn;
   background-color: rgb(57, 87, 143);
-  height: 80vh;
+  height: 100vh;
   color: lightgreen;
 
 }
 
 .allbooks{
-  display: flex;
+  position: absolute;
+  background-color: white;
   flex-direction: column;
-  justify-content: flex-start;
+  height: 80%;
+  width: 100vw;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
 }
 
 .books1 {
-  background-color: rgb(255, 255, 255);
-  height: 40%;
-  width: 10%
+  width: 95vw;
+  height: 40vh;
+  background-color: blue;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.books2 {
+  width: 95vw;
+  height: 40vh;
+  background-color: midnightblue;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .aside{
   grid-area: as;
   background-color: rgb(57, 87, 143);
-  height: 40vh;
+  height: 95vh;
   color: grey;
 }
 
@@ -219,4 +243,7 @@ body{
   height: 5vh;
   font-style: italic;
   color: black;
+}
+
+
 }
