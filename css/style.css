@@ -309,5 +309,27 @@ img {
   color: black;
 }
 
+*/.search-btn {
+  color: blue;
+  float: right;
+  width: 40px;
+  height: 5vh;
+  background: pink;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+}
 
 }
