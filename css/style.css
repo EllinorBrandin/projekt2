@@ -1,5 +1,6 @@
+@media only screen and (min-width: 300px) {
 
-*{
+  *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -7,7 +8,7 @@
 #container {
     display: grid;
     height: 139vh;
-    width: 100vw;
+    width: 100%;
     grid-template-columns:2fr 1fr;
     text-align: center;
     background-color: rgb(21, 21, 49);
@@ -168,7 +169,7 @@
 
 .header {
   grid-area: hd;
-  height: 50vh;
+  height: 100%;
   background-color: rgb(57, 87, 143);
   color: rgb(255, 255, 255);
   padding: 5px;
@@ -187,11 +188,11 @@
   display: none;
 }
 
-img {
-  height: 30px;
-} 
 
-#
+
+#till-weuweb{
+  width: 90%;
+}
 
 .prev, .next {
   cursor: pointer;
@@ -410,4 +411,8 @@ height: 25px;
 
 /*/SEARCH*/
 
+.smolpic{
+  height:135px;
 }
+
+  }
