@@ -7,7 +7,7 @@
   }
 #container {
     display: grid;
-    height: 139vh;
+    height: 160vh;
     width: 100%;
     grid-template-columns:2fr 1fr;
     text-align: center;
@@ -249,10 +249,11 @@
   position: relative;
   grid-area: mn;
   background-color: rgb(57, 87, 143);
-  height: 60vh;
-  color: lightgreen;
-
-}
+  height: 65vh;
+  color: rgb(10, 16, 102);
+  font-size: 12px;
+  font-weight: bold;
+  }
 
 :root {
   --gutter: 25px;
@@ -369,7 +370,7 @@ ul {
 .footer {
   grid-area: ft;
   background-color: rgb(57, 87, 143);
-  height: 5vh;
+  height: 10vh;
   color: lightseagreen;
 }
 /*SEARCH*/
@@ -388,8 +389,6 @@ ul {
   padding: 10px;
 }
 
-
-
 .search-txt {
   border: none;
   background: none;
@@ -403,7 +402,6 @@ ul {
   width: 90%;
 }
 
-
 .searchbutton{
 height: 25px;
 
@@ -412,7 +410,14 @@ height: 25px;
 /*/SEARCH*/
 
 .smolpic{
-  height:135px;
+  height:115px;
+  box-shadow: -1px 0px 10px rgba(10, 16, 100, 0.185);
+}
+
+.smolpic:hover{
+  transform: rotate(5deg);
+  transition: 1s;
 }
 
   }
+  
