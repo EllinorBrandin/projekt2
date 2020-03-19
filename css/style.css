@@ -1,5 +1,3 @@
-@media only screen and (max-width: 580px) {
-
 
 *{
     margin: 0px;
@@ -8,7 +6,7 @@
   }
 #container {
     display: grid;
-    height: 290vh;
+    height: 139vh;
     width: 100vw;
     grid-template-columns:2fr 1fr;
     text-align: center;
@@ -19,7 +17,6 @@
         'hd hd hd hd'
         'hm hm hm hm'
         'mn mn mn mn'
-        'as as as as'
         'ft ft ft ft';
 }
 
@@ -194,6 +191,7 @@ img {
   height: 30px;
 } 
 
+#
 
 .prev, .next {
   cursor: pointer;
@@ -250,53 +248,130 @@ img {
   position: relative;
   grid-area: mn;
   background-color: rgb(57, 87, 143);
-  height: 100vh;
+  height: 60vh;
   color: lightgreen;
 
 }
 
+:root {
+  --gutter: 25px;
+}
+
 .allbooks{
-  position: absolute;
-  background-color: white;
-  flex-direction: column;
-  height: 80%;
+  padding: var(--gutter) 0;
+  display:grid;
+  grid-gap: var(--gutter) 0;
+  grid-template-columns: var(--gutter) 1fr var(--gutter);
+  align-content: start;
+}
+
+.allbooks > * {
+  grid-column: 2 / -2;
+}
+
+.allbooks > .full {
+  grid-column: 1 / -1;
+}
+
+.hs {
+  display: grid;
+  grid-gap: calc(var(--gutter) / 2);
+  grid-template-columns: repeat(6, calc(42% - var(--gutter) * 2));
+  grid-template-rows: minmax(150px, 1fr);
+  
+  overflow-x: scroll;
+  scroll-snap-type: x proximity;
+  padding-bottom: calc(.75 * var(--gutter));
+  margin-bottom: calc(-.25 * var(--gutter));
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.allbooks {
   width: 100vw;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-
+  height: 200px;
+  overflow-y: scroll;
 }
 
-.books1 {
-  width: 95vw;
-  height: 40vh;
-  background-color: blue;
-  margin-left: auto;
-  margin-right: auto;
+.hs > li,
+.item {
+  scroll-snap-align: center;
+  padding: calc(var(--gutter) / 2 * 1.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 15px;
 }
 
-.books2 {
-  width: 95vw;
-  height: 40vh;
-  background-color: midnightblue;
-  margin-left: auto;
-  margin-right: auto;
+:root {
+  --gutter: 25px;
 }
 
-.aside{
-  grid-area: as;
-  background-color: rgb(57, 87, 143);
-  height: 95vh;
-  color: grey;
+.otherbooks{
+  padding: var(--gutter) 0;
+  display:grid;
+  grid-gap: var(--gutter) 0;
+  grid-template-columns: var(--gutter) 1fr var(--gutter);
+  align-content: start;
+}
+
+.otherbooks > * {
+  grid-column: 2 / -2;
+}
+
+.otherbooks > .full {
+  grid-column: 1 / -1;
+}
+
+.ha {
+  display: grid;
+  grid-gap: calc(var(--gutter) / 2);
+  grid-template-columns: repeat(6, calc(42% - var(--gutter) * 2));
+  grid-template-rows: minmax(150px, 1fr);
+  
+  overflow-x: scroll;
+  scroll-snap-type: x proximity;
+  padding-bottom: calc(.75 * var(--gutter));
+  margin-bottom: calc(-.25 * var(--gutter));
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.otherbooks {
+  width: 100vw;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.ha > li,
+.item {
+  scroll-snap-align: center;
+  padding: calc(var(--gutter) / 2 * 1.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 15px;
 }
 
 .footer {
   grid-area: ft;
   background-color: rgb(57, 87, 143);
-  height: 20vh;
+  height: 5vh;
   color: lightseagreen;
 }
-
+/*SEARCH*/
 .search{
   grid-area: hm;
   background-color: rgba(255, 255, 255, 0.733);
@@ -333,6 +408,6 @@ height: 25px;
 
 }
 
-
+/*/SEARCH*/
 
 }
