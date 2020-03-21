@@ -52,42 +52,47 @@
     box-shadow: -5px 2px 3px rgba(8, 13, 78, 0.295);
   }
 
+  .yellowbooket{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+  }
+}
   /* logga */
 
 .boklogga {
   display: block;
-  position: relative;
-  left: -182px;
-  height: 8vh;
-  
+  margin-left: auto;
+  margin-right: auto;
+  width: 65px;  
 }
 
 .kontaktlogga {
-  position: relative;
-  left: -182px;
   display: block;
-  height: 8vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65px;
 }
 
 .ovrigtlogga{
-  position: relative;
-  left: -182px;
-    display: block;
-    height: 8vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65px;
 }
 
 .profil {
-  position: relative;
-  left: -182px;
   display: block;
-    height: 8vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65px;
 }
 
 .fraglogga {
-  position: relative;
-  left: -182px;
   display: block;
-    height: 8vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65px;
 }
 
 /* /logga */
@@ -426,8 +431,117 @@ cursor: pointer;
   transform: rotate(15deg);
   transition: 1s;
 }
-
-
-
-  }
   
+.hooder {
+  grid-area: hd;
+  height: 400px;
+  background: pink;
+  margin-bottom: 12px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#profilepic{
+  width: 140px;
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#moon{
+  grid-area: mn;
+  background: green;
+  height: 300px;
+  margin-bottom: 12px;
+}
+
+#fpt{
+  background: blue;
+  grid-area: ft;
+  margin-bottom: 12px;
+  height: 100px;
+}
+
+.arrow{
+  width: 50%;
+}
+
+#wowsie{
+  grid-area: hd;
+  height: 50px;
+  background-color: rgb(146, 189, 247);
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  font-size: 39px;
+  font-weight: 530;
+}
+
+.meen{
+  grid-area: mn;
+  font-size: 14px;
+  text-align: left;
+  background-color: rgb(146, 189, 247);
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#spice{
+  font-size: 20px;
+}
+
+#jajaja{
+  margin-top: 10px;
+  font-weight: 560;
+  color:grey
+  
+}
+#massatext{
+  margin-top: 10px;
+  font-size: 12px;;
+  margin-bottom: 10px;
+}
+
+.blok{
+  background-color: white;
+  height: 110%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+#aa{
+  margin: 10px;
+}
+
+#feeter{
+  grid-area: ft;
+  height: 50px;
+  background-color: rgb(57, 87, 143);
+  text-align: center;
+  color: lightseagreen;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#yellowbooket{
+  text-align: center;
+}
+
+.retreat{
+  border: none;
+  background-color: rgba(21, 21, 49, 0.233);
+  width:60px;
+  height: 35px;
+  font-weight: 500;
+  cursor: pointer;
+
+margin-right: 78vw;}
+
+.retreat:hover{
+transition: 0.4s;
+background-color: rgba(146, 190, 247, 0.5);
+}
