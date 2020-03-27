@@ -257,7 +257,7 @@
   margin-bottom: 25px;
   grid-area: mn;
   background-color: rgb(57, 87, 143);
-  height: 65vh;
+  height: 66vh;
   color: rgb(10, 16, 102);
   font-size: 12px;
   font-weight: bold;
@@ -303,7 +303,7 @@ ul {
 
 .allbooks {
   width: 100vw;
-  height: 200px;
+  height: 250px;
   overflow-y: scroll;
 }
 
@@ -359,7 +359,7 @@ ul {
 
 .otherbooks {
   width: 100vw;
-  height: 200px;
+  height: 250px;
   overflow-y: scroll;
 }
 
@@ -434,8 +434,8 @@ cursor: pointer;
   
 .hooder {
   grid-area: hd;
-  height: 400px;
-  background: pink;
+  height: 340px;
+  background-color: rgb(146, 189, 247);
   margin-bottom: 12px;
   text-align: center;
   color: black;
@@ -445,25 +445,37 @@ cursor: pointer;
   margin-right: auto;
 }
 
-#profilepic{
-  width: 140px;
-  top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+.profilepic{
+height: 100px;
 }
 
 #moon{
   grid-area: mn;
-  background: green;
-  height: 300px;
+  background-color: rgb(57, 87, 143);
+  height: 500px;
   margin-bottom: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.classes{
+  background-color: rgb(146, 189, 247);
+  height: 30px;
+}
+
+.otherclasses{
+  background-color: rgb(91, 143, 211);
+  height: 30px;
+  font-stretch: extra-expanded;
 }
 
 #fpt{
-  background: blue;
+  background-color: rgb(57, 87, 143);
   grid-area: ft;
   margin-bottom: 12px;
   height: 100px;
+  color: lightseagreen;
+
 }
 
 .arrow{
@@ -538,10 +550,114 @@ cursor: pointer;
   height: 35px;
   font-weight: 500;
   cursor: pointer;
-
-margin-right: 78vw;}
+  margin-right: 90.6vw;}
 
 .retreat:hover{
 transition: 0.4s;
 background-color: rgba(146, 190, 247, 0.5);
+}
+
+.tinybox{
+  grid-area: hm;
+}
+
+.smallerbox{
+  background-color: rgb(146, 189, 247);
+  height: 65px;
+  margin-bottom: 13px;
+  margin-left: 6%;
+  margin-right: 6%;
+  font-size: 48px;
+}
+
+.contactinfo{
+  grid-area: hd;
+  height: 400px;
+  background-color: rgb(146, 189, 247);
+  margin-bottom: 30px;
+
+}
+
+.idk{
+  grid-area: mn;
+  background-color: rgb(21, 21, 49);
+  height: 581px;
+}
+
+.realfoot{
+  grid-area: ft;
+  background-color: rgb(57, 87, 143);
+  height: 11vh;
+  color: lightseagreen;
+
+}
+
+.email{
+  height:15vh;
+}
+
+.email:hover{
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.438);
+}
+.telefon {
+  height:15vh;
+}
+
+.telefon:hover{
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.438);
+}
+.instagram {
+  height:15vh;
+}
+
+.instagram:hover{
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.438);
+}
+.adress{
+  height:15vh;
+}
+.adress:hover{
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.438);
+}
+
+.geemail{
+  color: rgb(61, 46, 148);
+  margin-left: 30px;
+}
+
+.geemail:hover{
+  transition: 0.27s;
+  color: white;
+}
+
+.phoen{
+  color: rgb(61, 46, 148);
+}
+.phoen:hover{
+  transition: 0.27s;
+  color: white;
+}
+
+.thingy{
+  color: rgb(61, 46, 148);
+
+}
+
+.thingy:hover{
+  transition: 0.27s;
+  color: white;
+}
+
+.adrees{
+  color: rgb(61, 46, 148);
+
+}
+
+.adrees:hover{
+  transition: 0.27s;
+  color: white;
 }
