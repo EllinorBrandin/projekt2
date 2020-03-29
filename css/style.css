@@ -550,7 +550,8 @@ height: 100px;
   height: 35px;
   font-weight: 500;
   cursor: pointer;
-  margin-right: 90.6vw;}
+  margin-right: 90.6vw;
+}
 
 .retreat:hover{
 transition: 0.4s;
@@ -660,4 +661,81 @@ background-color: rgba(146, 190, 247, 0.5);
 .adrees:hover{
   transition: 0.27s;
   color: white;
+}
+
+#fak{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.questionbar{
+  grid-area: mn;
+  background-color: lightskyblue;
+  height: 514px;
+  width: 100%;
+  margin-bottom: 13px;
+
+
+}
+
+.kvestions{
+  height: 479px;
+  background-color: rgb(212, 239, 255);
+  line-height: 17vh;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+.grass{
+  height:119.75px;
+}
+
+.grass:hover{
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.438);
+}
+.rain {
+  height:119.75px;
+}
+
+.rain:hover{
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.438);
+}
+.snow {
+  height:119.75px;
+}
+
+.snow:hover{
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.438);
+}
+.read{
+  height:119.75px;
+}
+.read:hover{
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.438);
+}
+
+.possibly{
+  grid-area: mn;
+  background-color: lightskyblue;
+  height: 514px;
+  width: 100%;
+  margin-bottom: 13px;
+
+}
+
+.ja{
+  height: 479px;
+  background-color: rgb(212, 239, 255);
+  line-height: 70vh;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 15%;
+  margin-right: 15%;
 }
