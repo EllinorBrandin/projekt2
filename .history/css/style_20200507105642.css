@@ -11,6 +11,7 @@
     grid-template-columns:2fr 1fr;
     text-align: center;
     background-color: rgb(21, 21, 49);
+    font-size: 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     grid-template-areas:
         'nv nv nv nv'
@@ -568,7 +569,7 @@ background-color: rgba(146, 190, 247, 0.5);
   margin-bottom: 13px;
   margin-left: 6%;
   margin-right: 6%;
-  font-size: 38px;
+  font-size: 48px;
 }
 
 .contactinfo{
