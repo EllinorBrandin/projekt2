@@ -194,11 +194,10 @@
 
 .myslides {
   display: none;
-}
-
-.till-weuweb{
   width: 90%;
 }
+
+
 
 .prev, .next {
   cursor: pointer;
@@ -406,6 +405,7 @@ ul {
   color: white;
   font-size: 16px;
   transition: 0.4s;
+  text-emphasis: center;
   width: 90%;
 }
 
@@ -489,7 +489,7 @@ height: 100px;
   margin-left: 10%;
   margin-bottom: 2%;
   font-size: 39px;
-  font-weight: 500;
+  font-weight: 530;
 }
 
 .meen{
@@ -507,7 +507,7 @@ height: 100px;
 
 #jajaja{
   margin-top: 10px;
-  font-weight: 600;
+  font-weight: 560;
   color:grey
   
 }
